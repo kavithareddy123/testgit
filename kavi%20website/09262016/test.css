@@ -1,0 +1,276 @@
+
+html, body {
+                width: 90%;
+                height: 100%;
+                margin-left:5%;
+                margin-right:5%;
+                padding: 0;
+            }
+.divscontainer {
+    height: 55%;
+    width: 100%;
+    padding-right:2%;
+    padding-left:2%;
+    position: relative;
+}
+div.firstdiv{
+ width: 80%;
+    height:100%;
+    margin-left:10%;
+    margin-right:10%;
+    border-bottom-color:#1b95e0;
+    border-left-color:white;
+    border-right-color:white;
+    border-top-color:#DC143C;
+    border-style:solid;
+    border-bottom-width:10px;
+    border-top-width:10px;
+}
+img {
+    width: 100%;
+    height:100%;
+  }
+ 
+div.seconddiv {
+  width: 40%;
+  height: 90%;
+  position: absolute;
+  margin-left:28%;
+  margin-right:30%;
+  margin-top:13px;
+  top:0;
+  z-index: 10;
+  opacity:0.9;
+  background-color:white;
+}
+.seconddivinner{
+line-height:50%;
+margin-bottom:10%;
+}
+
+#headone{
+margin-top: 2%;
+font-size: 120%;
+font-weight: 500;
+}
+#headtwo{
+margin-top: 4%;
+font-size: 100%;
+font-weight: 400;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px solid #DC143C;
+    width:80%;
+}
+#headthree{
+font-family: Calibri;
+margin-top: 4%;
+font-size: 100%;
+font-weight: 300;
+}
+div.schedule{
+color:white;
+background-color:#DC143C;
+margin-left:1%;
+margin-right:1%;
+}
+#k{
+	background-color: #fafafa;
+	   height: 50%;
+    width: 100%;
+}
+
+
+
+label{
+text-align: right;
+font-weight:inherit;
+font-size:10px;
+}
+.col-xs-6{
+padding-left:2px;
+}
+.col-xs-4{
+padding-right:2px;
+}
+.modal-backdrop {
+background: none;
+ }
+
+
+.conered{
+color:#DC143C;
+}
+.ctwoblue{
+color:#1b95e0;
+}
+
+input[type="radio"] {
+margin-top:2%;
+}
+/* 
+#checkboxdiv1{
+margin-left:5%;
+}
+#checkboxdiv3{
+margin-right:5%;
+}
+ */
+.checkbox-circle{
+    border-radius: 50%; 
+}
+
+.form-control{
+height:16px;
+border-radius:0px;
+}
+.btn-default {
+    color: white;
+    background-color:#DC143C;
+    border-color: #DC143C;
+}
+.btn{
+border-radius:0px;
+margin-top:0px;
+}
+.btn{
+border-bottom-width:0px;
+border-top-width:0px;
+}
+button{
+margin-left:85%;
+margin-right:85%;
+margin-bottom:0px;
+margin-top:0px;
+}
+#firstsch{
+padding-top:3%;
+margin-bottom:1%;
+font-size:66%;
+}
+#secondsch{
+padding-top:1%;
+font-size:66%;
+}
+#thirdsch{
+margin-top: 5%;
+font-size: 250%;
+font-weight: bolder;
+}
+#fourthsch{
+margin-top: 3%;
+font-size: 55%;
+}
+.form-group{
+margin-bottom:1%;
+}
+
+div.radioboxes
+{
+color:white;
+background-color:#1b95e0;
+margin-left:1%;
+margin-right:1%;
+
+}
+input[type='radio']{
+display:inline;
+border-radius:5%;
+}
+div.radio-div{
+margin-right:2%;
+margin-left:2%;
+display:inline;
+}
+/*kavitha*/
+
+.page-headerone{
+	border-top-color: white;
+	border-left-color: white;
+	border-right-color: white;
+	width:78%;
+	margin-left:11%;
+	margin-right:11%;
+    margin-top:0px 0px 0px;
+}
+
+
+.page-footer{
+    width: 80%;
+   margin-left:10%;
+	background-color: #DC143C;
+	border-bottom-color:#1b95e0;
+	border-bottom-width: 4px;
+	border-top-color:#DC143C ;
+	border-left-color: #DC143C;
+	border-right-color: #DC143C;
+	border-style:solid;
+
+}
+#fcolor{
+margin-top:0px;
+margin-bottom:0px;
+   color:white;
+   
+}
+ul.bullet {
+list-style-image: url('bullet.jpg');
+padding-left: 5%;
+margin: 0;
+color:#DC143C;
+font-weight:bold;
+}
+
+
+
+.contentwin{
+	font-weight: bold;
+}
+
+
+.About professional-painters{
+display: table-cell;
+vertical-align:middle;
+}
+
+
+
+.page-content{
+display:table;
+margin:auto;
+text-align: center-left;
+margin-left:10%;
+}
+#about{
+width:80%;
+font-size:14px;
+}
+#bluediv{
+background-color:#1b95e0;
+}
+#firstpabout{
+font-size:20px;
+margin-bottom:1px;
+}
+
+#secondpabout{
+font-size:15px;
+}
+#thirdpabout{
+margin-bottom:1px;
+}
+#fourthpabout{
+font-size:15px;
+margin-bottom:1px;
+margin-top:5px;
+}
+.thankyou{
+margin-top:20%;
+margin-bottom:20%;
+font-weight:bold;
+color:green;
+font-size:30px;
+}
